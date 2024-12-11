@@ -1,1 +1,42 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: darkgreen;
+}
+
+.card {
+  display: flex;
+  margin: auto;
+  margin-top: 40px;
+  height: 300px;
+  width: 200px;
+  background-color: white;
+}
+
+.card-number {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-size: 60px;
+}
+
+.card-icon {
+  font-size: 40px;
+  margin: 5px;
+}
+
+.lower {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.heart > p {
+  color: red;
+}
+
+.card-options {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
